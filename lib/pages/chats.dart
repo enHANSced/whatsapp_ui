@@ -91,7 +91,7 @@ class Chats extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20)),
                 backgroundColor: Colors.greenAccent[100],
                 elevation: 5,
-                //dismissDirection: DismissDirection.horizontal,
+                dismissDirection: DismissDirection.horizontal,
                 //onVisible: () {},
                 //showCloseIcon: true,
               ));
@@ -161,7 +161,7 @@ class Chats extends StatelessWidget {
               ],
             ),
             trailing: Text(randomTime(),
-                style: const TextStyle(fontSize: 16.0, color: Colors.grey)),
+                style: const TextStyle(fontSize: 14.0, color: Colors.grey)),
             contentPadding: const EdgeInsets.all(10.0),
           );
         },
