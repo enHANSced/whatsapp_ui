@@ -54,7 +54,7 @@ class Chats extends StatelessWidget {
   }
 
   bool messageReadStatus(int index) {
-    return Random().nextBool();  // True or false
+    return Random().nextBool(); // True or false
   }
 
   @override
@@ -117,16 +117,12 @@ class Chats extends StatelessWidget {
                           ListTile(
                             leading: const Icon(Icons.chat),
                             title: const Text('Send message'),
-                            onTap: () {
-                              Navigator.pop(context);
-                            },
+                            onTap: () {},
                           ),
                           ListTile(
                             leading: const Icon(Icons.info),
                             title: const Text('View profile'),
-                            onTap: () {
-                              Navigator.pop(context);
-                            },
+                            onTap: () {},
                           ),
                         ],
                       ),
