@@ -54,7 +54,7 @@ class Chats extends StatelessWidget {
   }
 
   bool messageReadStatus(int index) {
-    return Random().nextBool(); // Simulating read status randomly
+    return Random().nextBool();  // True or false
   }
 
   @override
@@ -92,8 +92,6 @@ class Chats extends StatelessWidget {
                 backgroundColor: Colors.greenAccent[100],
                 elevation: 5,
                 dismissDirection: DismissDirection.horizontal,
-                //onVisible: () {},
-                //showCloseIcon: true,
               ));
             },
             leading: GestureDetector(
